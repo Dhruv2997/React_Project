@@ -1,0 +1,160 @@
+/* ol,
+ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 54px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 54px;
+}
+
+.square--green {
+  background: green;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.button {
+  background-color: #555555; /* Green */
+/* border: none;
+  color: #fff;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+} */
+
+/* .button--green {
+  background-color: #4caf50;
+  color: #000;
+  font-weight: bold;
+}
+
+.button--new-game {
+  background-color: #bb3219;
+  color: #000;
+  font-weight: bold;
+  margin-left: 2px;
+} */
+
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.emailForm {
+  font-size: 40px;
+  color: salmon;
+}
+.terms {
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+.registerLog {
+  text-align: center;
+  padding: 15px;
+  line-height: 3;
+}
+
+.inputemail {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.registerForm {
+  font-size: 20px;
+  color: salmon;
+  margin-right: 10px;
+}
+
+.inputRegister {
+  width: 20%;
+  padding: 8px 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+}
+
+.registerAsk {
+  font-size: 25px;
+}
+.imageM {
+  font-size: 12px;
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+}
+.Mimag {
+  margin-left: 550px;
+}
+
+.btbt {
+  text-align: center;
+}
+
+.buttonM {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
